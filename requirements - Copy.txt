@@ -1,0 +1,10 @@
+# Core
+streamlit>=1.32
+opencv-python>=4.9
+numpy>=1.26
+
+# Detection + tracking
+ultralytics>=8.2      # includes YOLOv8/YOLO11 + built-in ByteTrack support
+
+# Optional: alert sound
+# playsound is intentionally omitted because it is incompatible with Python 3.14
